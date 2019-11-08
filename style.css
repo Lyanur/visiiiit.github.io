@@ -1,0 +1,134 @@
+html{
+	height: 100%;
+}
+body {
+	margin: 0;
+	background: #E6D4BD;	
+}
+div {
+}
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	flex-wrap: wrap;
+	position: fixed;
+}
+.nav {
+	background: rgba(102, 36, 24, 0.5);
+	border: 5px solid rgba(102, 36, 24, 0.5);
+	border-radius: 50px;
+}
+main {
+	padding-top: 10px;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+h4 {
+ text-align: center;
+}
+.textcenter {
+ text-align: center;
+}
+.main_1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+}
+.main_2 {
+	display: flex;
+	background-image: url(img/1.jpg);
+	background-size: 100% 100%;
+	max-width: 410px;
+	min-width: 410px;
+	max-height: 600px;
+	min-height: 600px;
+
+}
+.main_3 {
+	display: flex;
+	
+}
+.main_4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+
+}
+.main_5 {
+	display: flex;
+	flex-direction: column;
+	min-width: 410px;
+	max-width: 600px;
+	
+}
+.main_5_1 {
+	display: flex;
+	background-image: url(img/1_1.png);
+	background-size: 100% 100%;
+	max-width: 600px;
+	min-width: 410px;
+	max-height: 799px;
+	min-height: 799px;
+}
+.main_6 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 410px;
+	max-width: 600px;
+}
+.main_6_1 {
+	display: flex;
+	background-image: url(img/factorio-4.jpg);
+	background-size: 100% 100%;
+	min-width: 410px;
+	max-height: 337px;
+	min-height: 337px;
+}
+.main_7_1 {
+	display: flex;
+	background-image: url(img/Osu!Logo_2015.png);
+	background-size: 100% 100%;
+	max-width: 600px;
+	min-width: 410px;
+	min-height: 600px;
+}
+.main_8 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 40%;
+	min-width: 410px;
+}
+.borderpurpur {
+	border: 5px solid #2E2B48;
+	padding:  10px;
+	border-radius: 20px;
+}
+.borderbrawn {
+	border: 5px dashed #220F01;
+	padding:  10px;
+	border-radius: 20px;
+}
+.borderosu {
+	border: 5px dotted #A50000;
+	border-radius: 20px;
+	padding:  10px;
+}
+.borderart {
+	border: 5px solid #D87635;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
